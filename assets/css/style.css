@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.card-sec {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 55%;
+}
+
+.row {
+  height: 100%;
+  margin: auto;
+}
+
+.select-card {
+  margin-left: 70px;
+  position: relative;
+}
+
+.info {
+  background-color: hsl(246, 80%, 60%);
+  padding: 20px 20px 50px 20px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 70%;
+  width: 75%;
+  z-index: 10;
+}
+
+.img-div img {
+  height: 35%;
+  width: 35%;
+  border: white 2.5px solid;
+  border-radius: 50%;
+  margin: 20px 0 30px 0;
+}
+
+.report-tag {
+  color: hsl(235, 45%, 61%);
+  font-size: small;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.select-period {
+  background-color: hsl(235, 46%, 20%);
+  padding: 20px 20px 50px 20px;
+  border-radius: 15px;
+  width: 75%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+}
+
+.period-list {
+  list-style: none;
+  padding-left: 0.3rem;
+  margin-top: 3.1rem;
+}
+
+.period-list-item {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+}
+
