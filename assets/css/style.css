@@ -30,7 +30,7 @@ body {
 }
 
 .select-card {
-  margin-left: 70px;
+  margin-left: 15%;
   position: relative;
 }
 
@@ -40,8 +40,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  height: 70%;
-  width: 75%;
+  height: 65%;
   z-index: 10;
 }
 
@@ -60,23 +59,24 @@ body {
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .select-period {
   background-color: hsl(235, 46%, 20%);
   padding: 20px 20px 50px 20px;
-  width: 75%;
   height: 40%;
+  width: 95%;
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
 }
 
 .period-list {
   list-style: none;
   padding-left: 0.3rem;
-  margin-top: 3.1rem;
+  margin-top: 3rem;
 }
 
 .period-list-item {
@@ -84,14 +84,16 @@ body {
   font-size: 0.9rem;
 }
 
-.top-card {
+.top-card, .bottom-card {
   position: relative;
 }
 
 .color-card {
   text-align: end;
   overflow: hidden;
-  width: 75%;
+  position: relative;
+  left: 20px;
+  max-height: 60px;
 }
 
 .color-card img {
@@ -108,17 +110,28 @@ body {
   background-color: hsl(145, 58%, 55%);
 }
 
+.play-color {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.social-color {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.study-color {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.self-color {
+  background-color: hsl(43, 84%, 65%);
+}
+
 .info-card {
   background-color: hsl(235, 46%, 20%);
   padding: 20px 20px 10px 20px;
   position: relative;
-  bottom: 40px;
-  width: 75%;
-}
-
-.bottom-info {
-  position: relative;
-  bottom: 17px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .card-title {
