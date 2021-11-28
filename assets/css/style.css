@@ -60,7 +60,7 @@ body {
 
 .name {
   font-size: 2.3rem;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.5px;
 }
 
@@ -155,3 +155,58 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .card-sec {
+    top: 30%;
+  }
+
+  .img-div img {
+    height: 85%;
+    width: 80%;
+  }
+
+  .name-div {
+    margin-top: 10%;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .info {
+    position: relative;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .select-period {
+    width: 95%;
+  }
+
+  .period-list {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .select-card {
+    margin-left: 0;
+  }
+  
+  .info-card {
+    left: 0;
+  }
+
+  .color-card {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .select-period {
+    width: 92%;
+  }
+}
