@@ -70,6 +70,8 @@ body {
   height: 40%;
   width: 95%;
   position: absolute;
+  right: 12px;
+  left: 12px;
   bottom: 25px;
 }
 
@@ -82,9 +84,6 @@ body {
 .period-list-item {
   margin-top: 0.8rem;
   font-size: 0.9rem;
-  border: none;
-  background: none;
-  color: inherit;
 }
 
 .period-list-item:hover {
@@ -168,7 +167,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .card-sec {
     top: 30%;
   }
@@ -218,7 +217,22 @@ footer {
   }
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 992px) {
+  .select-period {
+    width: 97%;
+  }
+  .period-list {
+    margin-top: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .select-period {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .select-period {
     width: 92%;
   }
